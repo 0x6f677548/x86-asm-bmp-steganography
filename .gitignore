@@ -1,0 +1,4 @@
+
+src/hide_msg
+*.o
+src/show_msg
