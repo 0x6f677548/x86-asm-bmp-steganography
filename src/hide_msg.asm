@@ -1,5 +1,6 @@
 ; "hide_msg.asm"
 ; 0x6f677548 - 2021
+; License: GNU v3
 
 
 ; Hides a text message hidden in a bitmap (steganography)

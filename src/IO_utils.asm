@@ -1,5 +1,6 @@
 ; "IO_utils.asm"
 ; 0x6f677548 - 2021
+; License: GNU v3
 
 ; Library of reusable IO functions that can be used across the project
 ; 
