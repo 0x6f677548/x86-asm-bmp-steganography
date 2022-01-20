@@ -72,7 +72,7 @@ readArguments:
     jb errorNoArgs     ; check for no arguments (other than program name)
     ja errorTooManyArgs ; check for too many arguments
     
-    pop rdx ; name of executable ./Recuperar
+    pop rdx ; name of executable ./show_msg
     pop rdi ; ARG0 address (filename)
 
             

@@ -70,7 +70,7 @@ _start:
     cmp rdx, 4                           ; verify correct number of arguments. 
     jne errorArgs                        ; we'll accept 3 exact arguments only
     
-    pop rdx                              ; name of executable ./Esconder
+    pop rdx                              ; name of executable ./hide_msg
     pop rdi                              ; ARG0 address (txt filename)
     mov [inputTxtFileName], rdi
 
