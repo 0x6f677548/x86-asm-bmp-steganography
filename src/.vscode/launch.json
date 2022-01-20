@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch Program",
+            "target": "${fileDirname}/${fileBasenameNoExtension}",
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText",
+            "preLaunchTask": "asm64"
+        }
+        
+
+    ]
+}

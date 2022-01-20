@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "asm64",
+            "type": "shell",
+            "command": "rawfilename=${fileDirname}/${fileBasenameNoExtension}; nasm -F dwarf -g -f elf64 -i ${fileDirname} ${file}; nasm -F dwarf -g -f elf64 -i ${fileDirname} -o fc57044_Biblioteca.o fc57044_Biblioteca.asm; ld -g -o $rawfilename $rawfilename.o fc57044_Biblioteca.o;",
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": "error"
+                }
+            },
+            "presentation": {
+                "focus": true,
+                "panel": "dedicated",
+                "reveal": "silent",
+                "clear": true
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
