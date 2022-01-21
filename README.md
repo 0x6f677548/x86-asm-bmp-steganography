@@ -19,7 +19,6 @@ The program will manipulate each pixel in 3 bytes (RGB), meaning each pixel will
 
 The code demonstrates how to find the *size* and *offset* bytes in the header and then navigate through the bitmap using reader buffers and replace the RGB bytes with manipulated ones.
 
-## Implementation files
 
 ## Usage
 ### Hiding a message
